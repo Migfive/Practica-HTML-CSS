@@ -1,3 +1,7 @@
+# PRACTICO HTML Y CSS
+Este es un repositorio que tiene como objetivo implementar lo básico para ser un Frontend de verdad, así que si estas dispuesto a colaborar podras emplearlo en tu aprendizaje y podrás hacerlo de manera práctica, como referencia tendrás los archivos de forma publica y podras tener acceso a el.
+
+---
 ### HTML
 ![N|Solid](https://play-lh.googleusercontent.com/RslBy1o2NEBYUdRjQtUqLbN-ZM2hpks1mHPMiHMrpAuLqxeBPcFSAjo65nQHbTA53YYn=w240-h480-rw)
 
