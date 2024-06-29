@@ -10,30 +10,38 @@ TODO color: var(variable) */
 
 body{
     font-family: "Karla", "Poppins","Noto Sans", sans-serif;
-    background-color: beige; 
+    background-color: var(--Color-four); 
     
 }
 
 h1{
-    color: rgb(1, 39, 73);
+    color: var(--Color-Three);
 }
 .container{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    
 }
-.container ul{
+.container ul {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+    justify-content: center;
     align-items: center;
     margin: 50px;
     list-style: none;
-    background-color: rgb(183, 243, 223);
+    background-color: var(--Color-one);
+    padding: 0; /* Remueve el padding por defecto */
+    width: 100%; /* Asegura que el ul ocupe todo el ancho disponible */
 }
-.container li{
+
+.container li {
+    flex: 0 1 45%; /* Cada elemento ocupará el 45% del ancho del contenedor */
     margin: 25px;
     background-color: aliceblue;
     border-radius: 25px;
-    padding: 2px;
+    padding: 10px;
+    box-sizing: border-box; /* Incluye el padding y border en el cálculo del ancho */
+    text-align: center; /* Centra el texto en cada li */
 }
