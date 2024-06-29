@@ -1,0 +1,14 @@
+:root{
+    --Color-one:#f7cd67;
+    --Color-Two: #a2bc97; 
+    --Color-Three: #361d20;
+    --Color-four: #fbe5ac; 
+    --Color-five: #fb6a3d;
+}
+/* PAra llamarlo se utiliza la funocion
+TODO color: var(variable) */
+
+body{
+    font-family: "Karla", "Poppins","Noto Sans", sans-serif; 
+    
+}

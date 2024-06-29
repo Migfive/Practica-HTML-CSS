@@ -1,0 +1,11 @@
+:root{
+    --Color-one:#f7cd67;
+    --Color-Two: #a2bc97; 
+    --Color-Three: #361d20;
+    --Color-four: #fbe5ac; 
+    --Color-five: #fb6a3d;
+}
+
+body{
+    font-family: "Karla", "Poppins","Noto Sans", sans-serif; 
+}
